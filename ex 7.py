@@ -1,0 +1,6 @@
+n= int(input("Digite um número para ver sua tabuada: "))
+c= 1
+while c<= 10:
+    resultado = n * c
+    print(f"{n} x {c} = {resultado}")
+    c+=1
